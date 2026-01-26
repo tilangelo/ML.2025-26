@@ -71,7 +71,7 @@ public class ArticleRepository {
                 System.out.println("Duplicate article: " + article.getGuid());
                 return false;
             }
-            
+
             System.err.println("SQLite error for article " + article.getGuid());
             e.printStackTrace();
 
